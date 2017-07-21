@@ -2,7 +2,7 @@
 
 namespace app\demo\controller;
 
-class WelcomeController extends \wf\web\Controller {
+class WelcomeController extends \wf\app\web\Controller {
     
     public function indexAction() {
         $this->getView()
